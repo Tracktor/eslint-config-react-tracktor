@@ -4,9 +4,6 @@
   "license": "MIT",
   "main": "index.js",
   "version": "1.0.0",
-  "exports": {
-    ".": "./index.js"
-  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^8.20.0",
