@@ -1,3 +1,5 @@
-const eslintrc = require('./.eslintrc.js');
+"use strict";
+
+const eslintrc = require("/ .eslintrc");
 
 module.exports = eslintrc;
