@@ -29,7 +29,7 @@ Create a file named `.eslintrc` in your project and extends config :
 
 ## Read more
 
-Read about all the rules here: http://eslint.org/docs/rules/
+Read more about all the rules here: http://eslint.org/docs/rules/
 
 ## Changelog
 
