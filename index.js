@@ -141,7 +141,7 @@ module.exports = {
         "prettier/prettier": [
             "error",
             {
-                "printWidth": 140
+                "printWidth": 150
             }
         ],
         "quotes": "off",
@@ -190,6 +190,22 @@ module.exports = {
             ],
             "rules": {
                 "no-restricted-imports": "off"
+            }
+        },
+        {
+            "files": [
+                "next-env.d.ts"
+            ],
+            "rules": {
+                "spaced-comment": "off"
+            }
+        },
+        {
+            "files": [
+                "src/pages/_app.tsx"
+            ],
+            "rules": {
+                "react/jsx-props-no-spreading": "off"
             }
         }
     ]
