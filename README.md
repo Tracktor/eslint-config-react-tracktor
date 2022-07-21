@@ -33,6 +33,9 @@ Read about all the rules here: http://eslint.org/docs/rules/
 
 ## Changelog
 
+### 1.1.1
+- version
+
 ### 1.1.0
 - Update printWidth
 - Add override rules for next.js app

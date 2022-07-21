@@ -3,7 +3,7 @@
   "description": "Tracktor ESLint config for react",
   "license": "MIT",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "dependencies": {
     "@typescript-eslint/types": "^5.30.7",
     "eslint-config-airbnb": "^19.0.4",
