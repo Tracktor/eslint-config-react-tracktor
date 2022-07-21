@@ -33,6 +33,9 @@ Read more about all the rules here: http://eslint.org/docs/rules/
 
 ## Changelog
 
+### 1.2.1
+- Add @typescript-eslint/types to devDependencies and remove from dependencies
+
 ### 1.2.0
 - Reduce printWidth prettier
 
