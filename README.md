@@ -30,3 +30,9 @@ Create a file named `.eslintrc` in your project and extends config :
 ## Read more
 
 Read about all the rules here: http://eslint.org/docs/rules/
+
+## Changelog
+
+### 1.1.0
+- Update printWidth
+- Add override rules for next.js app
