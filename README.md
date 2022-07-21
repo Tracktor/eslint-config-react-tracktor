@@ -14,7 +14,7 @@ or
 yarn add git+https://github.com/Tracktor/eslint-config-react -D
 ```
 
-## Usage:
+## Usage
 
 Create a file named `.eslintrc` in your project and extends config :
 
