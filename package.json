@@ -7,6 +7,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "prepare": "npm install || yarn"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/types": "^5.30.7",
