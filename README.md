@@ -14,6 +14,12 @@ or
 yarn add git+https://github.com/Tracktor/eslint-config-react -D
 ```
 
+Specific version can be installed
+
+```console
+yarn add git+https://github.com/Tracktor/eslint-config-react#1.0.0 -D
+```
+
 ## Usage
 
 Create a file named `.eslintrc` in your project and extends config :
@@ -23,7 +29,8 @@ Create a file named `.eslintrc` in your project and extends config :
   "extends": "eslint-config-react",
   "rules": {
     "..." : "..."
-  }
+  },
+  "overrides": "..."
 }
 ```
 
@@ -32,16 +39,3 @@ Create a file named `.eslintrc` in your project and extends config :
 Read more about all the rules here: http://eslint.org/docs/rules/
 
 ## Changelog
-
-### 1.2.1
-- Add @typescript-eslint/types to devDependencies and remove from dependencies
-
-### 1.2.0
-- Reduce printWidth prettier
-
-### 1.1.1
-- version
-
-### 1.1.0
-- Update printWidth prettier
-- Add override rules for next.js app
