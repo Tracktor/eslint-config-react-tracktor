@@ -3,7 +3,6 @@
   "description": "Tracktor ESLint config for react",
   "license": "MIT",
   "version": "1.0.0",
-  "type": "module",
   "main": "index.js",
   "files": [
     "index.js"
