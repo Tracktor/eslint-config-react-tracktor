@@ -5,12 +5,6 @@ A set of opinionated ESLint (http://eslint.org) rules (all rules included) for R
 ## Installation
 
 ```console
-npm install git+https://github.com/Tracktor/eslint-config-react --save-dev
-```
-
-or 
-
-```console
 yarn add git+https://github.com/Tracktor/eslint-config-react -D
 ```
 
