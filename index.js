@@ -195,7 +195,9 @@ module.exports = {
         },
         {
             "files": [
-                "next-env.d.ts"
+                "next-env.d.ts",
+                "react-app-env.d.ts",
+                "vite-env.d.ts"
             ],
             "rules": {
                 "spaced-comment": "off"
