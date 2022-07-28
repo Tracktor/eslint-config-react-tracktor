@@ -210,6 +210,15 @@ module.exports = {
             "rules": {
                 "react/jsx-props-no-spreading": "off"
             }
+        },
+        {
+            "files": [
+                "*.stories.tsx"
+            ],
+            "rules": {
+                "no-restricted-imports": "off",
+                "react/jsx-props-no-spreading": "off"
+            }
         }
     ]
 };

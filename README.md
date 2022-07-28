@@ -32,4 +32,5 @@ Create a file named `.eslintrc` in your project and extends config :
 
 Read more about all the rules here: http://eslint.org/docs/rules/
 
-## Changelog
+### 1.1.1
+- Add rules for storybook
