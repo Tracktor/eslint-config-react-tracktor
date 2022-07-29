@@ -38,7 +38,9 @@ module.exports = {
       {
         "devDependencies": [
           "**/*.test.ts",
-          "**/*.test.tsx"
+          "**/*.test.tsx",
+          "setupTests.ts",
+          "vite.config.ts"
         ]
       }
     ],
@@ -211,14 +213,6 @@ module.exports = {
       ],
       "rules": {
         "react/jsx-props-no-spreading": "off"
-      }
-    },
-    {
-      "files": [
-        "setupTests.ts"
-      ],
-      "rules": {
-        "import/no-extraneous-dependencies": "off"
       }
     }
   ]
