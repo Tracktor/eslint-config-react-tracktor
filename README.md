@@ -39,8 +39,4 @@ Read more about all the rules here: http://eslint.org/docs/rules/
 
 ## Changelog
 
-### 1.2.0
-- Disable rules "react/jsx-props-no-spreading" for component inside stories folder
-
-### 1.1.1
-- Add rules for storybook
+### 1.0.0
