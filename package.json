@@ -4,6 +4,11 @@
   "license": "MIT",
   "version": "1.0.0",
   "repository": "git@github.com:Tracktor/eslint-config-react.git",
+  "author": "Mickaël Austoni",
+  "bugs": {
+    "url": "https://github.com/Tracktor/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/Tracktor/eslint-config-react#readme",
   "main": "index.js",
   "files": [
     "index.js"
