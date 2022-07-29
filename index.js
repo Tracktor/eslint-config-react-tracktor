@@ -205,7 +205,8 @@ module.exports = {
         },
         {
             "files": [
-                "src/pages/_app.tsx"
+                "src/pages/_app.tsx",
+                "stories/*"
             ],
             "rules": {
                 "react/jsx-props-no-spreading": "off"

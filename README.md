@@ -1,6 +1,11 @@
 # eslint-config-react
 
-A set of opinionated ESLint (http://eslint.org) rules (all rules included) for React projects
+A set of opinionated [ESLint](http://eslint.org) rules (all rules included) for React projects
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Read more](#Read-more)
+- [Changelog](#Changelog)
 
 ## Installation
 
@@ -31,6 +36,11 @@ Create a file named `.eslintrc` in your project and extends config :
 ## Read more
 
 Read more about all the rules here: http://eslint.org/docs/rules/
+
+## Changelog
+
+### 1.2.0
+- Disable rules "react/jsx-props-no-spreading" for component inside stories folder
 
 ### 1.1.1
 - Add rules for storybook
