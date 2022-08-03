@@ -208,7 +208,7 @@ module.exports = {
     {
       "files": [
         "src/pages/_app.tsx",
-        "src/stories/**",
+        "**/stories/**",
         "*.stories.tsx"
       ],
       "rules": {
