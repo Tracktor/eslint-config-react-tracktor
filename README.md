@@ -21,7 +21,7 @@ yarn add git+https://github.com/Tracktor/eslint-config-react#1.0.0 -D
 
 ## Usage
 
-Create a file named `.eslintrc` in your project and extends config :
+Create a file named `.eslintrc` in your root project and extends config :
 
 ```json
 {
