@@ -189,7 +189,8 @@ module.exports = {
     {
       "files": [
         "*.test.tsx",
-        "*.stories.tsx"
+        "*.stories.tsx",
+        "index.@(js|jsx|ts|tsx)",
       ],
       "rules": {
         "no-restricted-imports": "off"
