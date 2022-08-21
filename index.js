@@ -191,6 +191,7 @@ module.exports = {
         "*.test.tsx",
         "*.stories.tsx",
         "index.@(js|jsx|ts|tsx)",
+        "vite.config.ts"
       ],
       "rules": {
         "no-restricted-imports": "off"
