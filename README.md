@@ -16,7 +16,7 @@ yarn add git+https://github.com/Tracktor/eslint-config-react -D
 Specific version can be installed
 
 ```console
-yarn add git+https://github.com/Tracktor/eslint-config-react#1.0.0 -D
+yarn add git+https://github.com/Tracktor/eslint-config-react#v1.0.0 -D
 ```
 
 ## Usage
