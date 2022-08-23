@@ -5,7 +5,6 @@ A set of opinionated [ESLint](http://eslint.org) rules (all rules included) for 
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Read more](#Read-more)
-- [Changelog](#Changelog)
 
 ## Installation
 
