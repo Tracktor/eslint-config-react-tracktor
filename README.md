@@ -41,7 +41,3 @@ Read more about all the rules here: http://eslint.org/docs/rules/
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Versioning](https://semver.org/)
 - [Conventional Commits](https://www.conventionalcommits.org)
-
-## Changelog
-
-### 1.0.0
