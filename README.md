@@ -35,8 +35,8 @@ Create a file named `.eslintrc` in your root project and extends config :
 ## Read more
 
 Read more about all the rules here: http://eslint.org/docs/rules/
-
+https://semver.org/
 ## Convention
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-- [Versioning](https://semver.org/)
+- [Versioning]()
 - [Conventional Commits](https://www.conventionalcommits.org)

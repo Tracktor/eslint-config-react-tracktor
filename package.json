@@ -2,7 +2,7 @@
   "name": "eslint-config-react",
   "description": "Tracktor ESLint config for react",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "git@github.com:Tracktor/eslint-config-react.git",
   "author": "Mickaël Austoni",
   "bugs": {
@@ -17,6 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "@typescript-eslint/types": "^5.30.7",
+    "eslint": "8.22.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^7.0.1",
@@ -27,10 +28,7 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1"
-  },
-  "peerDependency": {
-    "eslint": "^8.20.0",
-    "prettier": "^2.7.1"
   }
 }
