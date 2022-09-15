@@ -1,0 +1,46 @@
+version: 2.1
+
+orbs:
+  gh: circleci/github-cli@1.0
+
+references:
+  production_context: &production_context
+    - npm
+
+executors:
+
+  publish-npm:
+    docker:
+      - image: cimg/node:16.17.0
+
+
+jobs:
+
+  publish-npm:
+    executor: publish-npm
+    steps:
+      - checkout
+      - run:
+          name: Yarn install
+          command: yarn
+      - run:
+          name: yan publish
+          command: yarn publish
+      - run:
+          name: Create Release
+          command: |
+            export TAG=$(yarn -v)
+            gh release create -F CHANGELOG.md $TAG .
+
+
+
+workflows:
+
+  release:
+    when:
+      matches:
+        pattern: "^master$"
+        value: << pipeline.git.branch >>
+    jobs:
+      - publish-npm:
+          context: *production_context
