@@ -25,13 +25,13 @@ jobs:
           name: Yarn install
           command: yarn
       - run:
-          name: yan publish
-          command: yarn publish
-      - run:
           name: Create Release
           command: |
             export TAG=$(yarn -v)
             gh release create -F CHANGELOG.md $TAG .
+      - run:
+          name: publish on npm
+          command: yarn publish
 
 
 
