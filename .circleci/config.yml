@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  gh: circleci/github-cli@2.0
+  gh: circleci/github-cli@2.1.0
 
 references:
   production_context: &production_context
@@ -25,13 +25,15 @@ jobs:
           name: Yarn install
           command: yarn
 
-      - gh/release:
-          notes-file: CHANGELOG.md
-          tag: $(grep '"version":' ./package.json | cut -d\" -f4)
-      # command: |
-      #   export TAG=$(grep '"version":' ./package.json | cut -d\" -f4)
-      #   echo $TAG
-      #   gh release create -F CHANGELOG.md $TAG .*
+      # - gh/release:
+      #     notes-file: CHANGELOG.md
+      #     tag: $(grep '"version":' ./package.json | cut -d\" -f4)
+      - run:
+          name: Create Github release
+          command: |
+            export TAG=$(grep '"version":' ./package.json | cut -d\" -f4)
+            gh release create -F CHANGELOG.md $TAG
+
       - run:
           name: publish on npm
           command: yarn publish
