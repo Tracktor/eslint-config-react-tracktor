@@ -111,9 +111,8 @@ module.exports = {
         "patterns": [
           {
             "group": [
-              "**/./*",
-              "!*.module.scss",
-              "!*.test.@(js|jsx|ts|tsx)",
+              "./*",
+              "../*",
             ],
             "message": "No relative import allowed."
           }
@@ -188,10 +187,11 @@ module.exports = {
     },
     {
       "files": [
-        "*.test.tsx",
+        "*.test.@(js|jsx|ts|tsx)",
         "*.stories.tsx",
         "index.@(js|jsx|ts|tsx)",
-        "vite.config.ts"
+        "vite.config.ts",
+        "*.module.scss"
       ],
       "rules": {
         "no-restricted-imports": "off"
