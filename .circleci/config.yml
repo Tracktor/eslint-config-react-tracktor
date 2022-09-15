@@ -19,6 +19,7 @@ jobs:
   publish-npm:
     executor: publish-npm
     steps:
+      - gh/setup
       - checkout
       - run:
           name: Yarn install
