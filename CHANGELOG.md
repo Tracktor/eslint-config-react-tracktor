@@ -1,3 +1,3 @@
-# [Versions](https://github.com/Tracktor/eslint-config-react/releases)
+# [Versions](https://github.com/Tracktor/eslint-config-tracktor-react/releases)
 
 ## v1.0.0

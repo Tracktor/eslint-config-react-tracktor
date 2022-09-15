@@ -1,6 +1,6 @@
-# eslint-config-tracktor
+# eslint-config-tracktor-react
 
-A set of opinionated [ESLint](http://eslint.org) rules for javascript projects
+A set of opinionated [ESLint](http://eslint.org) rules for react projects
 
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -9,7 +9,7 @@ A set of opinionated [ESLint](http://eslint.org) rules for javascript projects
 ## Installation
 
 ```console
-yarn add eslint-config-tracktor -D
+yarn add eslint-config-tracktor-react -D
 ```
 
 ## Usage
