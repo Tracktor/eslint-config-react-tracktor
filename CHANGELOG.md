@@ -1,5 +1,3 @@
 # [Versions](https://github.com/Tracktor/eslint-config-react/releases)
 
-## v1.1.0
-- Exclude no-restricted-imports rules for all test files
-- Improve no-restricted-imports rules
+## v1.0.0

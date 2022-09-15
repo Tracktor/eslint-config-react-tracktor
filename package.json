@@ -1,8 +1,8 @@
 {
-  "name": "eslint-config-react",
+  "name": "eslint-config-tracktor",
   "description": "Tracktor ESLint config for react",
   "license": "ISC",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "repository": "git@github.com:Tracktor/eslint-config-react.git",
   "author": "Mickaël Austoni",
   "bugs": {
@@ -13,7 +13,7 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "@typescript-eslint/types": "^5.30.7",

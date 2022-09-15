@@ -1,6 +1,6 @@
-# eslint-config-react
+# eslint-config-tracktor
 
-A set of opinionated [ESLint](http://eslint.org) rules (all rules included) for React projects
+A set of opinionated [ESLint](http://eslint.org) rules for javascript projects
 
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -9,13 +9,7 @@ A set of opinionated [ESLint](http://eslint.org) rules (all rules included) for 
 ## Installation
 
 ```console
-yarn add git+https://github.com/Tracktor/eslint-config-react -D
-```
-
-Specific version can be installed
-
-```console
-yarn add git+https://github.com/Tracktor/eslint-config-react#v1.0.0 -D
+yarn add eslint-config-tracktor -D
 ```
 
 ## Usage
@@ -24,7 +18,7 @@ Create a file named `.eslintrc` in your root project and extends config :
 
 ```json
 {
-  "extends": "eslint-config-react",
+  "extends": "eslint-config-tracktor",
   "rules": {
     "..." : "..."
   },
@@ -35,8 +29,8 @@ Create a file named `.eslintrc` in your root project and extends config :
 ## Read more
 
 Read more about all the rules here: http://eslint.org/docs/rules/
-https://semver.org/
+
 ## Convention
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-- [Versioning]()
+- [Versioning](https://semver.org/)
 - [Conventional Commits](https://www.conventionalcommits.org)
