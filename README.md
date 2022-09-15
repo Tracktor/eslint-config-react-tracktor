@@ -1,4 +1,4 @@
-# eslint-config-tracktor-react
+# eslint-config-react-tracktor
 
 A set of opinionated [ESLint](http://eslint.org) rules for react projects
 
@@ -9,7 +9,7 @@ A set of opinionated [ESLint](http://eslint.org) rules for react projects
 ## Installation
 
 ```console
-yarn add eslint-config-tracktor-react -D
+yarn add eslint-config-react-tracktor -D
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Create a file named `.eslintrc` in your root project and extends config :
 
 ```json
 {
-  "extends": "eslint-config-tracktor-react",
+  "extends": "eslint-config-react-tracktor",
   "rules": {
     "..." : "..."
   },

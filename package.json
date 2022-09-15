@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-tracktor-react",
+  "name": "eslint-config-react-tracktor",
   "description": "Tracktor ESLint config",
   "license": "ISC",
   "version": "1.0.0",
-  "repository": "git@github.com:Tracktor/eslint-config-tracktor-react.git",
+  "repository": "git@github.com:Tracktor/eslint-config-react-tracktor.git",
   "author": "Mickaël Austoni",
   "bugs": {
-    "url": "https://github.com/Tracktor/eslint-config-tracktor-react/issues"
+    "url": "https://github.com/Tracktor/eslint-config-react-tracktor/issues"
   },
-  "homepage": "https://github.com/Tracktor/eslint-config-tracktor-react#readme",
+  "homepage": "https://github.com/Tracktor/eslint-config-react-tracktor#readme",
   "main": "index.js",
   "files": [
     "index.js"
