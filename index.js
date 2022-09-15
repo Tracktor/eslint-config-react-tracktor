@@ -113,7 +113,7 @@ module.exports = {
             "group": [
               "**/./*",
               "!*.module.scss",
-              "!*.test.tsx"
+              "!*.test.@(js|jsx|ts|tsx)",
             ],
             "message": "No relative import allowed."
           }
