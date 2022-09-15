@@ -28,7 +28,7 @@ jobs:
           name: Create Release
           command: |
             export TAG=$(yarn -v)
-            gh release create -F CHANGELOG.md $TAG .
+            gh release create -F CHANGELOG.md $TAG .*
       - run:
           name: publish on npm
           command: yarn publish
