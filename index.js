@@ -169,7 +169,13 @@ module.exports = {
     "react/jsx-pascal-case": "error",
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
-    "sort-keys": "error",
+    "sort-keys": [
+      "error",
+      "asc",
+      {
+        "caseSensitive": false
+      }
+    ],
     "sort-keys-fix/sort-keys-fix": "warn",
     "spaced-comment": [
       "error",
