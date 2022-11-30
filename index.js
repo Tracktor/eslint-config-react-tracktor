@@ -176,7 +176,13 @@ module.exports = {
         "caseSensitive": false
       }
     ],
-    "sort-keys-fix/sort-keys-fix": "warn",
+    "sort-keys-fix/sort-keys-fix":  [
+      "warn",
+      "asc",
+      {
+        "caseSensitive": false
+      }
+    ],
     "spaced-comment": [
       "error",
       "always"
