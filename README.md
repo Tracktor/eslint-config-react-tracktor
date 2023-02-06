@@ -18,7 +18,7 @@ Create a file named `.eslintrc` in your root project and extends config :
 
 ```json
 {
-  "extends": "eslint-config-react-tracktor",
+  "extends": "@tracktor/eslint-config-react-tracktor",
   "rules": {
     "..." : "..."
   },
