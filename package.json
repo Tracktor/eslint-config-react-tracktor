@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react-tracktor",
+  "name": "@tracktor/eslint-config-react-tracktor",
   "description": "Tracktor ESLint config",
   "license": "ISC",
   "version": "1.0.5",
