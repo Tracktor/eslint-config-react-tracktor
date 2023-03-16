@@ -3,7 +3,10 @@
   "description": "Tracktor ESLint config",
   "license": "ISC",
   "version": "1.0.6",
-  "repository": "git@github.com:Tracktor/eslint-config-react-tracktor.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Tracktor/eslint-config-react-tracktor.git"
+  },
   "author": "Mickaël Austoni",
   "bugs": {
     "url": "https://github.com/Tracktor/eslint-config-react-tracktor/issues"
