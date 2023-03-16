@@ -1,5 +1,7 @@
 # eslint-config-react-tracktor
 
+[![npm version](https://badge.fury.io/js/eslint-config-react-tracktor.svg)](https://badge.fury.io/js/eslint-config-react-tracktor)
+
 A set of opinionated [ESLint](http://eslint.org) rules for react projects
 
 - [Installation](#Installation)
