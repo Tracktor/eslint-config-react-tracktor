@@ -22,7 +22,7 @@ Create a file named `.eslintrc` in your root project and extends config :
 {
   "extends": "eslint-config-react-tracktor",
   "rules": {
-    "..." : "..."
+    "...": "..."
   },
   "overrides": "..."
 }
@@ -33,6 +33,7 @@ Create a file named `.eslintrc` in your root project and extends config :
 Read more about all the rules here: http://eslint.org/docs/rules/
 
 ## Convention
+
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Versioning](https://semver.org/)
 - [Conventional Commits](https://www.conventionalcommits.org)
