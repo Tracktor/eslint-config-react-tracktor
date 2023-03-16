@@ -2,3 +2,4 @@
 
 ## v1.0.6
 - **[DOCS]** : Add npm tag to README.md
+- **[FEAT]** Improve`sort-keys-fix` rules
