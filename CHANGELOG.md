@@ -1,5 +1,5 @@
 # [Versions](https://github.com/Tracktor/eslint-config-react-tracktor/releases)
 
-## v1.0.6
-- **[DOCS]** : Add npm tag to README.md
-- **[FEAT]** Improve`sort-keys-fix` rules
+## v1.1.0
+- **[add]** `import/no-extraneous-dependencies` rule for all `*.config.ts` file
+- **[remove]** `import/no-extraneous-dependencies` rule for all `setupTest.ts` file
