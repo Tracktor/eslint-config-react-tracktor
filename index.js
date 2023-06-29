@@ -176,7 +176,7 @@ module.exports = {
         "caseSensitive": false
       }
     ],
-    "sort-keys-fix/sort-keys-fix":  [
+    "sort-keys-fix/sort-keys-fix": [
       "warn",
       "asc",
       {
@@ -227,6 +227,17 @@ module.exports = {
       ],
       "rules": {
         "react/jsx-props-no-spreading": "off"
+      }
+    },
+    {
+      "files": [
+        "*.test.js",
+        "*.spec.js",
+        "*.cy.js",
+        "*.cy.ts"
+      ],
+      "rules": {
+        "no-unused-expressions": "off"
       }
     }
   ]
