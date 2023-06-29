@@ -39,7 +39,7 @@ module.exports = {
         "devDependencies": [
           "**/*.test.ts",
           "**/*.test.tsx",
-          "*.config.ts",
+          "**/*.config.ts",
           "vite.config.ts"
         ]
       }
