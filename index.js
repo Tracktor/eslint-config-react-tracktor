@@ -239,6 +239,14 @@ module.exports = {
       "rules": {
         "no-unused-expressions": "off"
       }
+    },
+    {
+      "files": ["./src/api/**/*.ts"],
+      "rules": {
+        "indent": "off",
+        "no-restricted-imports": "off",
+        "no-duplicate-imports": "off"
+      }
     }
   ]
 };
