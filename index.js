@@ -40,7 +40,8 @@ module.exports = {
           "**/*.test.ts",
           "**/*.test.tsx",
           "**/*.config.ts",
-          "vite.config.ts"
+          "vite.config.ts",
+          "cypress/**/*.ts"
         ]
       }
     ],
