@@ -33,18 +33,7 @@ module.exports = {
     "guard-for-in": "error",
     "import/extensions": "off",
     "import/newline-after-import": "error",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": [
-          "**/*.test.ts",
-          "**/*.test.tsx",
-          "**/*.config.ts",
-          "vite.config.ts",
-          "cypress/**/*.ts"
-        ]
-      }
-    ],
+    "import/no-extraneous-dependencies": "error",
     "import/no-unresolved": "off",
     "import/no-useless-path-segments": [
       "error",
@@ -204,7 +193,8 @@ module.exports = {
         "*.test.@(js|jsx|ts|tsx)",
         "*.stories.tsx",
         "index.@(js|jsx|ts|tsx)",
-        "vite.config.ts"
+        "vite.config.ts",
+        "./src/api/**/*.ts"
       ],
       "rules": {
         "no-restricted-imports": "off"
@@ -242,11 +232,22 @@ module.exports = {
       }
     },
     {
-      "files": ["./src/api/**/*.ts"],
+      "files": "./src/api/**/*.ts",
       "rules": {
         "indent": "off",
-        "no-restricted-imports": "off",
         "no-duplicate-imports": "off"
+      }
+    },
+    {
+      files: [
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.config.ts",
+        "vite.config.ts",
+        "cypress/**/*.ts"
+      ],
+      rules: {
+        "import/no-extraneous-dependencies": "off"
       }
     }
   ]
