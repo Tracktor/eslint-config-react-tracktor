@@ -2,17 +2,12 @@
 
 module.exports = {
   extends: [
+    "react-app",
     "airbnb",
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
+    "airbnb/hooks",
     "prettier",
-    "react-app"
   ],
   plugins: [
-    "@typescript-eslint",
     "prettier",
     "sort-keys-fix"
   ],
@@ -235,7 +230,10 @@ module.exports = {
       "files": "./src/api/**/*.ts",
       "rules": {
         "indent": "off",
-        "no-duplicate-imports": "off"
+        "no-duplicate-imports": "off",
+        "no-redeclare": "off",
+        "sort-keys": "off",
+        "sort-keys-fix/sort-keys-fix": "off",
       }
     },
     {
