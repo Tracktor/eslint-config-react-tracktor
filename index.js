@@ -128,7 +128,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        "printWidth": 140
+        "printWidth": 200
       }
     ],
     "quotes": "off",
