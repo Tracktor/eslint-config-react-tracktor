@@ -5,7 +5,6 @@ module.exports = {
     "react-app",
     "airbnb",
     "airbnb/hooks",
-    "prettier",
   ],
   plugins: [
     "prettier",
