@@ -129,7 +129,7 @@ module.exports = {
       "error",
       {
         "endOfLine": "auto",
-        "printWidth": 160
+        "printWidth": 150
       }
     ],
     "quotes": "off",
