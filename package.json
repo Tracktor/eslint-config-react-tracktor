@@ -2,7 +2,7 @@
   "name": "eslint-config-react-tracktor",
   "description": "Tracktor ESLint config",
   "license": "ISC",
-  "version": "1.6.6",
+  "version": "1.7.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:Tracktor/eslint-config-react-tracktor.git"

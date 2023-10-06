@@ -46,13 +46,7 @@ module.exports = {
         "newlines-between": "never"
       }
     ],
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
+    "indent": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
@@ -128,8 +122,9 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto",
-        "printWidth": 140
+        "printWidth": 140,
+        "SwitchCase": 1,
+        "tabWidth": 2
       }
     ],
     "quotes": "off",
@@ -230,7 +225,6 @@ module.exports = {
     {
       "files": "./src/api/**/*.ts",
       "rules": {
-        "indent": "off",
         "no-duplicate-imports": "off",
         "no-redeclare": "off",
         "sort-keys": "off",
