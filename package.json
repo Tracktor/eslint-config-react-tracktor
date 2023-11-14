@@ -2,7 +2,7 @@
   "name": "eslint-config-react-tracktor",
   "description": "Tracktor ESLint config",
   "license": "ISC",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:Tracktor/eslint-config-react-tracktor.git"
@@ -17,14 +17,14 @@
     "index.js"
   ],
   "dependencies": {
-    "@typescript-eslint/types": "^6.7.3",
-    "eslint": "^8.50.0",
+    "@typescript-eslint/types": "^6.11.0",
+    "eslint": "^8.53.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "prettier": "3.0.3"
+    "prettier": "3.1.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
