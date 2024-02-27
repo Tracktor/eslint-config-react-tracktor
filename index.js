@@ -125,6 +125,9 @@ module.exports = {
         "printWidth": 140,
         "SwitchCase": 1,
         "tabWidth": 2
+      },
+      {
+        "usePrettierrc": false
       }
     ],
     "quotes": "off",
