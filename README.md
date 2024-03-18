@@ -12,7 +12,7 @@ A set of opinionated [ESLint](http://eslint.org) rules for react projects
 ## Installation
 
 ```console
-yarn add @tracktor/eslint-config-react-tracktor -D
+yarn add eslint-config-react-tracktor -D
 ```
 
 ## Usage
