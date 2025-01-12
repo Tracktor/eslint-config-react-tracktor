@@ -188,7 +188,6 @@ module.exports = {
         "*.stories.tsx",
         "index.@(js|jsx|ts|tsx)",
         "vite.config.ts",
-        "./src/api/**/*.ts"
       ],
       "rules": {
         "no-restricted-imports": "off"
@@ -232,6 +231,9 @@ module.exports = {
         "no-redeclare": "off",
         "sort-keys": "off",
         "sort-keys-fix/sort-keys-fix": "off",
+        "no-restricted-imports": "off",
+        "no-nested-ternary": "off",
+        "import/order": "off",
       }
     },
     {
