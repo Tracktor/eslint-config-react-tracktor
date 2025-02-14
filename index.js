@@ -241,11 +241,18 @@ module.exports = {
         "**/*.test.ts",
         "**/*.test.tsx",
         "**/*.config.ts",
-        "vite.config.ts",
-        "cypress/**/*.ts"
+        "vite.config.ts"
       ],
       rules: {
         "import/no-extraneous-dependencies": "off"
+      }
+    },
+    {
+      "files": [
+        "e2e/**"
+      ],
+      "rules": {
+        "all": "off"
       }
     }
   ]
